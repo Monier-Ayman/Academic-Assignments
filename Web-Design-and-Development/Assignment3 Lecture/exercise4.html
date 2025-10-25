@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yoko's Kitchen</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #f3f1f1;
+        margin: 0;
+    }
+
+    .container{
+        width: 950px;
+        margin: auto;
+        background: #ffffff;
+        border-left: 5px solid brown;
+        border-right: 5px solid brown;
+        padding-bottom: 10px;
+    }
+
+    header{
+        background: #c8c4c0;
+        padding: 20px;
+        text-align: left;
+    }
+
+    nav{
+        background: #b7b2af;
+        padding: 10px;
+    }
+
+    nav a{
+        margin-right: 15px;
+        text-decoration: none;
+        color: #3f2f2e;
+        font-size: 14px;
+    }
+
+    .main{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .left{ width: 35%; }
+    .center{ width: 40%; }
+    .right{
+        width: 25%;
+        background: #fff4f7;
+        border-left: 1px solid #ddd;
+        padding: 15px;
+    }
+
+    .thumb {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+    }
+
+
+    h2{
+        color: #3f2f2e;
+        margin-bottom: 5px;
+    }
+
+    .sub{
+        color: #c5474e;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .panel-title{
+        color: #c5474e;
+        font-size: 18px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    ul{
+        padding: 0;
+        list-style: none;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    li{
+        padding: 6px 0;
+        border-bottom: 1px dashed #ddd;
+    }
+
+    .contact{
+        margin-top: 15px;
+        font-size: 14px;
+        color: #3f2f2e;
+    }
+
+    footer{
+        text-align: center;
+        background: #b7b2af;
+        padding: 10px;
+        color: white;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>YOKO'S KITCHEN</h1>
+        <p>JAPANESE COOKING CLASSES</p>
+    </header>
+
+    <nav>
+        <a href="#">home</a>
+        <a href="#">classes</a>
+        <a href="#">catering</a>
+        <a href="#">about</a>
+        <a href="#">contact</a>
+    </nav>
+
+    <div class="main">
+
+    <div class="left">
+        <img src="image1.jpeg" class="thumb" alt="Bok Choi">
+        <p>Bok Choi</p>
+
+        <img src="image2.jpeg" class="thumb" alt="Teriyaki Sauce">
+        <p>Teriyaki Sauce</p>
+    </div>
+
+        <div class="center">
+            <h2>Japanese Vegetarian</h2>
+            <p class="sub">Five week course in London</p>
+            <p>A five week introduction to Japanese vegetarian meals.</p>
+
+            <br><br>
+
+            <h2>Sauces Masterclass</h2>
+            <p class="sub">One day workshop</p>
+            <p>Learn to create the most delicious sauces used in Japanese cookery.</p>
+        </div>
+
+        <div class="right">
+            <div class="panel-title">Popular Recipes</div>
+            <ul>
+                <li>Yakitori (grilled chicken)</li>
+                <li>Tsukune (minced chicken patties)</li>
+                <li>Okonomiyaki (savory pancakes)</li>
+                <li>Mizutaki (chicken stew)</li>
+            </ul>
+
+            <div class="panel-title">Contact</div>
+            <div class="contact">
+                Yoko's Kitchen<br>
+                27 Redchurch Street<br>
+                Shoreditch<br>
+                London E2 7DP
+            </div>
+        </div>
+
+    </div>
+
+    <footer>© 2011 Yoko's Kitchen</footer>
+
+</div>
+
+</body>
+</html>

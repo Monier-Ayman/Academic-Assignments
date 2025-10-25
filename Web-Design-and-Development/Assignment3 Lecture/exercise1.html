@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Magazine Order Form</title>
+</head>
+<body>
+  <h2>Magazine Order Form</h2>
+
+  <form action="#" method="post">
+    <table border="0" cellpadding="6" cellspacing="0">
+      <tr>
+        <td align="right"><label for="firstName">First Name:</label></td>
+        <td><input type="text" id="firstName" name="firstName" size="30"></td>
+      </tr>
+
+      <tr>
+        <td align="right"><label for="lastName">Last Name:</label></td>
+        <td><input type="text" id="lastName" name="lastName" size="30"></td>
+      </tr>
+
+      <tr>
+        <td align="right"><label for="address">Address:</label></td>
+        <td><input type="text" id="address" name="address" size="50"></td>
+      </tr>
+
+      <tr>
+        <td align="right"><label for="city">City:</label></td>
+        <td><input type="text" id="city" name="city" size="30"></td>
+      </tr>
+
+      <tr>
+        <td align="right"><label for="state">State:</label></td>
+        <td><input type="text" id="state" name="state" size="10"></td>
+      </tr>
+
+      <tr>
+        <td align="right"><label for="zip">Zip:</label></td>
+        <td><input type="text" id="zip" name="zip" size="10"></td>
+      </tr>
+
+      <tr><td colspan="2" style="height:10px"></td></tr>
+
+      <tr>
+        <td align="right"><label for="magazine">Choose Magazine:</label></td>
+        <td>
+          <select id="magazine" name="magazine">
+            <option value="tech_today">Tech Today</option>
+            <option value="world_traveler">World Traveler</option>
+            <option value="food_monthly">Food Monthly</option>
+            <option value="home_garden">Home & Garden</option>
+            <option value="science_weekly">Science Weekly</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right">Subscription Length:</td>
+        <td>
+          <label><input type="radio" name="length" value="1yr" checked> 1 year</label>
+          &nbsp;&nbsp;
+          <label><input type="radio" name="length" value="2yr"> 2 years</label>
+          &nbsp;&nbsp;
+          <label><input type="radio" name="length" value="3yr"> 3 years</label>
+        </td>
+      </tr>
+
+      <tr><td colspan="2" style="height:10px"></td></tr>
+
+      <tr>
+        <td align="right" valign="top"><label for="comments">Additional Comments:</label></td>
+        <td><textarea id="comments" name="comments" rows="5" cols="50"></textarea></td>
+      </tr>
+
+      <tr><td colspan="2" style="height:12px"></td></tr>
+
+      <tr>
+        <td></td>
+        <td><input type="submit" value="Send Your Order"></td>
+      </tr>
+    </table>
+  </form>
+
+  
+</body>
+</html>
