@@ -1,0 +1,64 @@
+/* 1- Select all p elements and make them red */
+p{
+    color: red;
+}
+
+/* 2- Select p and div elements */
+p, div{
+    font-family: Arial, sans-serif;
+}
+
+/* 3- Select p with class mainClass direct child of div with id myDiv */
+#myDiv > p.mainClass{
+    background: yellow;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+/* 4- Select all p inside any div */
+div p{
+    font-weight: bold;
+}
+
+/* 5- Select input with type text and class myClass */
+input[type="text"].myClass{
+    border: 2px solid blue;
+    padding: 6px;
+}
+
+/* 6- Select span elements after any div */
+div + span{
+    color: green;
+    font-size: 20px;
+}
+
+/* 7- Select p with class myClass */
+p.myClass{
+    background-color: lightblue;
+    font-style: italic;
+}
+
+/* 8- Select div with id myDiv */
+#myDiv{
+    border: 3px dashed purple;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Merged images */
+#mergeImages{
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    border: 3px solid ;
+    box-sizing: border-box;
+    background-image: 
+        url("image1.jpg"),
+        url("image2.jpg"),
+        url("image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    filter: brightness(125%);
+}
