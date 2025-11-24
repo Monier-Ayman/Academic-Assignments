@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Exercise 4</title>
+</head>
+<body>
+
+<script>
+
+// 1. Function to print the minimum of 4 numbers
+function printMin(a, b, c, d){
+    let min= Math.min(a, b, c, d);
+    console.log("Minimum number is:", min);
+    alert("Minimum number is: " + min);
+}
+
+// Example usage:
+printMin(10, 5, 8, 12);
+
+// 2. Function to check if balance is enough for purchase
+function canPurchase(price, taxRate, balance){
+    let totalCost= price+(price*taxRate/100);
+    if(balance >= totalCost){
+        console.log("Yes");
+        alert("Yes");
+    } 
+    else{
+        console.log("No");
+        alert("No");
+    }
+}
+
+// Example usage:
+canPurchase(100, 10, 120);  // Yes
+canPurchase(100, 10, 105);  // No
+
+</script>
+
+</body>
+</html>
